@@ -20,9 +20,6 @@ export function Component() {
           <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
             About
           </Link>
-          <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
-            Contact
-          </Link>
         </nav>
       </header>
       <main className="flex-1 mx-auto max-w-[100vw]">
