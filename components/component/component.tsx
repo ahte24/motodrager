@@ -11,7 +11,7 @@ export function Component() {
     <>
       <header className="px-4 lg:px-6  h-16 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
-          <MountainIcon className="h-6 w-6" />
+          <MountainIcon/>
           <span className="sr-only">Lubricate Inc</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
@@ -71,7 +71,7 @@ export function Component() {
                 <Card>
                   <CardHeader className="flex flex-row items-center justify-between pb-2">
                     <CardTitle className="text-sm font-medium">Years in Business</CardTitle>
-                    <CalendarDaysIcon className="w-4 h-4 text-muted-foreground" />
+                    <CalendarDaysIcon  />
                   </CardHeader>
                   <CardContent>
                     <div className="text-2xl font-bold">8+</div>
@@ -80,7 +80,7 @@ export function Component() {
                 <Card>
                   <CardHeader className="flex flex-row items-center justify-between pb-2">
                     <CardTitle className="text-sm font-medium">Satisfied Customers</CardTitle>
-                    <UsersIcon className="w-4 h-4 text-muted-foreground" />
+                    <UsersIcon/>
                   </CardHeader>
                   <CardContent>
                     <div className="text-2xl font-bold">10,000+</div>
@@ -89,7 +89,7 @@ export function Component() {
                 <Card>
                   <CardHeader className="flex flex-row items-center justify-between pb-2">
                     <CardTitle className="text-sm font-medium">Products Sold</CardTitle>
-                    <BoxIcon className="w-4 h-4 text-muted-foreground" />
+                    <BoxIcon/>
                   </CardHeader>
                   <CardContent>
                     <div className="text-2xl font-bold">200,000+</div>
@@ -98,7 +98,7 @@ export function Component() {
                 <Card>
                   <CardHeader className="flex flex-row items-center justify-between pb-2">
                     <CardTitle className="text-sm font-medium">Authorized Dealer</CardTitle>
-                    <MapPinIcon className="w-4 h-4 text-muted-foreground" />
+                    <MapPinIcon />
                   </CardHeader>
                   <CardContent>
                     <div className="text-2xl font-bold">25+</div>
@@ -274,10 +274,9 @@ export function Component() {
   )
 }
 
-function BoxIcon(props) {
+function BoxIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -296,10 +295,9 @@ function BoxIcon(props) {
 }
 
 
-function CalendarDaysIcon(props) {
+function CalendarDaysIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -325,10 +323,9 @@ function CalendarDaysIcon(props) {
 }
 
 
-function MapPinIcon(props) {
+function MapPinIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -346,10 +343,9 @@ function MapPinIcon(props) {
 }
 
 
-function MountainIcon(props) {
+function MountainIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -366,10 +362,9 @@ function MountainIcon(props) {
 }
 
 
-function UsersIcon(props) {
+function UsersIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
