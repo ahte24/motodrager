@@ -3,24 +3,6 @@
 * @see https://v0.dev/t/YopUlvyy4wx
 * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
 */
-
-import { Libre_Franklin } from 'next/font/google';
-import { Rubik } from 'next/font/google';
-
-
-
-// Initialize the fonts correctly
-const libreFranklin = Libre_Franklin({
-  subsets: ['latin'],
-  display: 'swap',
-});
-
-const rubik = Rubik({
-  subsets: ['latin'],
-  display: 'swap',
-});
-
-import Link from "next/link"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 
 export function Component() {
