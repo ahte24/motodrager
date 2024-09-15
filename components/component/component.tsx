@@ -195,7 +195,7 @@ export function Component() {
             </h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               We appreciate your interest in our company and hope you found the information on our website helpful. If you
-              have any further questions or would like to learn more about our services, please don't hesitate to reach
+              have any further questions or would like to learn more about our services, please don&apos;t hesitate to reach
               out. We look forward to the opportunity to work with you.
             </p>
           </div>
