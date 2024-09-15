@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Head from 'next/head'
 
 const fontHeading = Inter({
 	subsets: ['latin'],
@@ -87,8 +88,58 @@ export default function Layout({ children, // will be a page or nested layout
 						</defs>
 					</svg>
 				</a>
-				<Footer/>
+				<Footer />
 			</body>
 		</html>
 	)
 }
+
+export const metadata = {
+	title: "Motodrager | Engine Oil & Lubricants",
+	description: "Motodrager manufactures and sells high-quality engine oil, brake oil, lubricants, and vehicle fluids. Visit us at www.motodrager.in for premium automotive solutions.",
+	keywords: [
+		"Motodrager.in",
+		"Motodrager.com",
+		"Motodrager",
+		"engine oil",
+		"brake oil",
+		"lubricants",
+		"vehicle fluids",
+		"automotive oils",
+		"synthetic oil",
+		"car maintenance",
+		"motorcycle oil",
+		"brake fluid",
+		"vehicle lubricants",
+		"high-performance oils",
+		"industrial lubricants",
+		"engine care"
+	],
+	author: "Motodrager",
+	openGraph: {
+		type: "website",
+		url: "https://www.motodrager.in",
+		title: "Motodrager | Engine Oil & Lubricants",
+		description: "Motodrager offers premium automotive engine oil, brake oil, and lubricants. Trusted for high-performance vehicle care.",
+		images: [
+			{
+				url: "https://littlewolfauto.com/wp-content/uploads/2024/04/Oil-change-service-march-blog.png",  // Replace with actual image path
+				width: 800,
+				height: 600,
+				alt: "Motodrager logo",
+			}
+		]
+	},
+	twitter: {
+		card: "summary_large_image",
+		site: "@motodrager",  // Replace with actual Twitter handle
+		title: "Motodrager | Engine Oil & Lubricants",
+		description: "Explore Motodrager's range of premium engine oils and lubricants for all vehicle types. Ensure top performance and protection.",
+		images: "https://littlewolfauto.com/wp-content/uploads/2024/04/Oil-change-service-march-blog.png",  // Replace with actual image path
+	},
+	viewport: "width=device-width, initial-scale=1.0",
+	charset: "UTF-8",
+	robots: "index, follow",
+	themeColor: "#000000",
+	favicon: "/favicon.ico" // Replace with actual favicon path
+};

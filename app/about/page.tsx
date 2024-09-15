@@ -3,7 +3,6 @@
  * @see https://v0.dev/t/tQrr3tZ10xG
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 
 export default function Component() {
     return (
@@ -26,7 +25,7 @@ export default function Component() {
                         <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                             Our mission is to revolutionize the way the world interacts with technology, by developing intuitive and
                             user-centric products that simplify complex processes and drive progress. With a talented team of
-                            engineers, designers, and visionaries, we are constantly pushing the boundaries of what's possible.
+                            engineers, designers, and visionaries, we are constantly pushing the boundaries of what&apos;s possible.
                         </p>
                     </div>
                     <img
@@ -53,7 +52,7 @@ export default function Component() {
                         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                             Integrity, Innovation, Collaboration, and Excellence are the core values that guide our every decision and
                             action. We are committed to upholding the highest standards of ethical conduct, continuously pushing the
-                            boundaries of what's possible, and fostering a culture of teamwork and mutual respect.
+                            boundaries of what&apos;s possible, and fostering a culture of teamwork and mutual respect.
                         </p>
                     </div>
                 </div>
@@ -210,7 +209,7 @@ export default function Component() {
                     </h2>
                     <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                         We appreciate your interest in our company and hope you found the information on our website helpful. If you
-                        have any further questions or would like to learn more about our services, please don't hesitate to reach
+                        have any further questions or would like to learn more about our services, please don&apos;t hesitate to reach
                         out. We look forward to the opportunity to work with you.
                     </p>
                 </div>
