@@ -5,7 +5,6 @@ import { cn } from '@/lib/utils'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import Head from 'next/head'
 
 const fontHeading = Inter({
 	subsets: ['latin'],
