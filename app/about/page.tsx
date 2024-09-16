@@ -7,10 +7,10 @@
 export default function Component() {
     return (
         <div className="flex flex-col min-h-[100dvh]">
-            <section className="w-full bg-[#212124] h-[400px] py-12 md:py-24 lg:py-32 bg-[url('/hero-image.jpg')] bg-cover bg-center">
+            <section className="w-full bg-[#212124] md:h-[400px] h-[300px] flex items-center py-12 md:py-24 lg:py-32 bg-[url('https://services.totalenergies.ng/sites/g/files/wompnd1171/f/styles/media_cover_1314px/public/atoms/image/3d_engine_oil_illustration.jpg?itok=dzYkhnij&c=e5202c125cb88a51462ccd2ae1c3f368')] bg-cover bg-center">
                 <div className="container mx-auto px-4 md:px-6 flex flex-col items-center justify-center text-center space-y-4">
-                    <h1 className="text-4xl font-bold text-primary-foreground sm:text-5xl md:text-6xl text-white">Motodrager.in</h1>
-                    <p className="text-xl text-primary-foreground text-white">Empowering the future of riding.</p>
+                    <h1 className="text-4xl font-bold text-primary-foreground sm:text-5xl md:text-6xl text-[#ffffff] bg-black rounded-lg p-2">Motodrager.in</h1>
+                    <p className="text-xl text-primary-foreground text-white bg-black rounded-lg p-2">Empowering the future of riding.</p>
                 </div>
             </section>
             <section className="w-full py-12 md:py-24 lg:py-32">

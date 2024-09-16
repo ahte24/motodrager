@@ -4,7 +4,11 @@
 * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
 */
 import Link from "next/link"
+import Image from "next/image"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
+import oil1 from "@/public/oil1.png"
+import oil2 from "@/public/oil2.jpeg"
+import oil3 from "@/public/oil3.png"
 
 export function Component() {
   return (
@@ -104,10 +108,57 @@ export function Component() {
             </div>
             <div className="mx-auto flex flex-wrap justify-center gap-6 py-12 ">
               <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
-                <img
-                  src="/placeholder.svg"
+                <Image
+                  src={oil1}
+                  width={500}
+                  height={500}
                   alt="Product"
-                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-full "
+                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
+                />
+                <div className="space-y-2 text-center">
+                  <h3 className="text-lg font-medium">Hign Performance Engine Oil</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Our premium engine oil keeps your engine running smoothly.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+                <Image
+                  src={oil2}
+                  width={500}
+                  height={500}
+                  alt="Product"
+                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
+                />
+                <div className="space-y-2 text-center">
+                  <h3 className="text-lg font-medium">CNG Engine Oil</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Our premium engine oil keeps your engine running smoothly.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+                <Image
+                  src={oil3}
+                  width={500}
+                  height={500}
+                  alt="Product"
+                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
+                />
+                <div className="space-y-2 text-center">
+                  <h3 className="text-lg font-medium">Gearless Scooters Engine Oil</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Our premium engine oil keeps your engine running smoothly.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+                <Image
+                  src={oil1}
+                  width={500}
+                  height={500}
+                  alt="Product"
+                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
                 />
                 <div className="space-y-2 text-center">
                   <h3 className="text-lg font-medium">Engine Oil</h3>
@@ -117,10 +168,12 @@ export function Component() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
-                <img
-                  src="/placeholder.svg"
+                <Image
+                  src={oil1}
+                  width={500}
+                  height={500}
                   alt="Product"
-                  className="mx-auto overflow-hidden rounded-md object-cover h-[400px] w-full"
+                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
                 />
                 <div className="space-y-2 text-center">
                   <h3 className="text-lg font-medium">Engine Oil</h3>
@@ -130,10 +183,12 @@ export function Component() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
-                <img
-                  src="/placeholder.svg"
+                <Image
+                  src={oil1}
+                  width={500}
+                  height={500}
                   alt="Product"
-                  className="mx-auto overflow-hidden rounded-md object-cover h-[400px] w-full"
+                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
                 />
                 <div className="space-y-2 text-center">
                   <h3 className="text-lg font-medium">Engine Oil</h3>
@@ -142,6 +197,7 @@ export function Component() {
                   </p>
                 </div>
               </div>
+              
             </div>
           </div>
         </section>
