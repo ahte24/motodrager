@@ -33,7 +33,7 @@ export default function Layout({ children, // will be a page or nested layout
 			>
 				<Navbar />
 				{children}
-				<a href={"https://wa.me/9114111987"} target="_blank" className="fixed bottom-[1%] right-[1%]">
+				<a href={"https://wa.me/+919910729024"} target="_blank" className="fixed bottom-[1%] right-[1%]">
 					<svg
 						width="100"
 						height="100"

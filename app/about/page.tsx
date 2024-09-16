@@ -4,6 +4,9 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 
+import profile from "@/public/profile.png"
+import Image from "next/image"
+
 export default function Component() {
     return (
         <div className="flex flex-col min-h-[100dvh]">
@@ -16,23 +19,19 @@ export default function Component() {
             <section className="w-full py-12 md:py-24 lg:py-32">
                 <div className="container mx-auto px-4 md:px-6 grid gap-6 lg:grid-cols-2 lg:gap-12">
                     <div className="space-y-4 flex flex-col justify-center">
-                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Acme Inc.</h2>
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Motodrager.</h2>
                         <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                            Acme Inc. is a leading technology company that has been at the forefront of innovation for over a decade.
-                            Founded in 2010, we are dedicated to creating cutting-edge solutions that empower businesses and
-                            individuals to thrive in the digital age.
+                            Motodrager is a leading provider of high-performance engine oils, brake oils, and lubricants that has been serving the automotive industry for over a decade. Founded in 2010, we are dedicated to creating advanced lubricant solutions that keep your engines running smoothly, efficiently, and reliably.
                         </p>
                         <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                            Our mission is to revolutionize the way the world interacts with technology, by developing intuitive and
-                            user-centric products that simplify complex processes and drive progress. With a talented team of
-                            engineers, designers, and visionaries, we are constantly pushing the boundaries of what&apos;s possible.
+                            Our mission is to enhance the performance and longevity of vehicles around the world by developing cutting-edge lubricants that reduce friction, prevent wear, and optimize engine efficiency. With a skilled team of engineers, chemists, and automotive experts, we are constantly innovating to meet the demands of modern engines and deliver products that exceed industry standards.
                         </p>
                     </div>
                     <img
                         src="https://littlewolfauto.com/wp-content/uploads/2024/04/Oil-change-service-march-blog.png"
                         width="550"
                         height="450"
-                        alt="About Acme Inc."
+                        alt="About Motodrager."
                         className="mx-auto  overflow-hidden rounded-xl object-cover sm:w-full"
                     />
                 </div>
@@ -42,17 +41,13 @@ export default function Component() {
                     <div className="space-y-4 text-center">
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Mission</h2>
                         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                            At Acme Inc., our mission is to empower businesses and individuals to thrive in the digital age. We
-                            believe that technology should be accessible, intuitive, and transformative, enabling our clients to
-                            achieve their goals and reach new heights.
+                            At Motodrager, our mission is to deliver world-class engine oils, brake oils, and lubricants that enhance the performance and durability of vehicles. We believe that top-quality lubrication is key to optimal engine performance, and we strive to provide solutions that are accessible, innovative, and tailored to the evolving needs of our customers.
                         </p>
                     </div>
                     <div className="space-y-4 text-center">
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Values</h2>
                         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                            Integrity, Innovation, Collaboration, and Excellence are the core values that guide our every decision and
-                            action. We are committed to upholding the highest standards of ethical conduct, continuously pushing the
-                            boundaries of what&apos;s possible, and fostering a culture of teamwork and mutual respect.
+                            Integrity, Innovation, Collaboration, and Excellence are the core values that drive every aspect of our business. We are committed to maintaining the highest standards of product quality and ethical conduct, continually advancing the limits of lubricant technology, and fostering a culture of teamwork and mutual respect to serve our customers better.
                         </p>
                     </div>
                 </div>
@@ -65,8 +60,7 @@ export default function Component() {
                             Meet Our Founder
                         </h2>
                         <p className="text-lg  text-center">
-                            We provide all the advantages that can simplify all your uniform
-                            needs without any further issues.
+                            We provide all the solutions needed to keep your vehicles running at their best.
                         </p>
                     </div>
                     <div className="swiper teamswiper pb-10">
@@ -74,13 +68,13 @@ export default function Component() {
                             <div className="swiper-slide">
                                 <div className="group w-full flex-wrap flex items-center justify-center gap-8  transition-all duration-500 p-8  lg:flex-nowrap">
                                     <div className=" w-full lg:w-64 h-80">
-                                        <img
+                                        <Image
                                             width={500}
                                             height={500}
-                                            src={""}
+                                            src={profile}
                                             alt="image"
                                             className="rounded-2xl h-full object-cover mx-auto lg:mx-0 lg:w-full bg-slate-800"
-                                        ></img>
+                                        />
                                     </div>
                                     <div className="text-center lg:text-left lg:max-w-xs flex-1">
                                         <div className="mb-5 pb-5 border-b border-solid border-gray-300">
@@ -92,7 +86,7 @@ export default function Component() {
                                             </span>
                                         </div>
                                         <p className="text-sm leading-6 mb-7">
-                                            As the Founder of Motodrager, I deliver top-quality engine oils, brake fluids, and premium vehicle fluids to boost performance and longevity. With over a decade of experience, we are known for reliability and innovation, helping vehicles run smoother and more efficiently.
+                                            As the Founder of Motodrager, I deliver top-quality engine oils, brake fluids, and lubricants to enhance performance and extend engine life. With over a decade of experience, we pride ourselves on reliability and innovation, helping vehicles run smoother and more efficiently.
                                         </p>
 
                                         <div className="flex items-center  gap-4 justify-center lg:justify-start">
@@ -162,40 +156,36 @@ export default function Component() {
             <section className="w-full py-12 md:py-24 lg:py-32">
                 <div className="container mx-auto px-4 md:px-6 space-y-6">
                     <div className="space-y-4 text-center">
-                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Choose Acme Inc.</h2>
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Choose Motodrager.</h2>
                         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                            At Acme Inc., we pride ourselves on our commitment to innovation, excellence, and customer satisfaction.
-                            Here are a few reasons why you should choose us:
+                            At Motodrager, we pride ourselves on our commitment to innovation, product quality, and customer satisfaction. Here are a few reasons why you should choose us for all your lubricant needs:
                         </p>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                         <div className="flex flex-col items-center space-y-2">
                             <RocketIcon />
                             <div className="space-y-1 text-center">
-                                <h3 className="text-xl font-semibold">Cutting-Edge Technology</h3>
+                                <h3 className="text-xl font-semibold">Advanced Lubricant Technology</h3>
                                 <p className="text-muted-foreground">
-                                    Our team of experts is constantly exploring the latest advancements in technology to deliver
-                                    innovative solutions that drive your business forward.
+                                    Our team of specialists continuously develops the latest advancements in oil and lubricant technology, ensuring your vehicles perform at their best while reducing wear and tear.
                                 </p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
                             <UsersIcon />
                             <div className="space-y-1 text-center">
-                                <h3 className="text-xl font-semibold">Dedicated Support</h3>
+                                <h3 className="text-xl font-semibold">Expert Support</h3>
                                 <p className="text-muted-foreground">
-                                    Our customer support team is available around the clock to ensure that your needs are met and your
-                                    questions are answered promptly.
+                                    Our dedicated support team is available around the clock to help with any questions you may have regarding our products, ensuring your engines and vehicles are always in top shape.
                                 </p>
                             </div>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
                             <BoltIcon />
                             <div className="space-y-1 text-center">
-                                <h3 className="text-xl font-semibold">Unparalleled Reliability</h3>
+                                <h3 className="text-xl font-semibold">Unmatched Reliability</h3>
                                 <p className="text-muted-foreground">
-                                    Our robust infrastructure and rigorous testing processes ensure that our solutions are reliable,
-                                    scalable, and secure, giving you peace of mind.
+                                    With our rigorously tested formulas and a robust manufacturing process, our oils and lubricants are designed for maximum durability, efficiency, and protection, giving you confidence in every drive.
                                 </p>
                             </div>
                         </div>
@@ -205,12 +195,11 @@ export default function Component() {
             <section className="w-full py-12 md:py-24 lg:py-32 bg-[#212124]">
                 <div className="container mx-auto px-4 md:px-6 space-y-6 text-center">
                     <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                        Thank you for visiting Acme Inc.
+                        Thank you for visiting Motodrager.
                     </h2>
                     <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                        We appreciate your interest in our company and hope you found the information on our website helpful. If you
-                        have any further questions or would like to learn more about our services, please don&apos;t hesitate to reach
-                        out. We look forward to the opportunity to work with you.
+                        We appreciate your interest in our range of high-performance engine oils and lubricants. We hope you found the information on our website helpful. If you have any further questions or would like to learn more about how our products can enhance your vehicle&#x2018;s performance and longevity, please
+                        don&#x2018;t hesitate to reach out. We look forward to the opportunity to work with you.
                     </p>
                 </div>
             </section>

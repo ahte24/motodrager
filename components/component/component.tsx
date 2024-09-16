@@ -9,13 +9,19 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import oil1 from "@/public/oil1.png"
 import oil2 from "@/public/oil2.jpeg"
 import oil3 from "@/public/oil3.png"
+import oil4 from "@/public/oil4.png"
+import oil5 from "@/public/oil5.png"
+import oil6 from "@/public/oil6.png"
+import oil7 from "@/public/oil7.png"
+import oil8 from "@/public/oil8.png"
+import oil9 from "@/public/oil9.png"
 
 export function Component() {
   return (
     <>
       <main className="flex-1 mx-auto max-w-[100vw]">
         <section className="py-12 ">
-          <div className="px-4 md:px-6 gap-6  lg:gap-12 flex xl:flex-row flex-col  ">
+          <div className="container mx-auto px-4 md:px-6 gap-6  lg:gap-12 flex xl:flex-row flex-col  ">
             <div className="flex flex-col justify-center space-y-4 h-[400px] xl:w-1/2 w-full">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-5xl/none">
@@ -27,7 +33,7 @@ export function Component() {
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Link
-                  href="#"
+                  href="tel:+91 9910729024"
                   className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                   prefetch={false}
                 >
@@ -116,10 +122,11 @@ export function Component() {
                   className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-medium">Hign Performance Engine Oil</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Our premium engine oil keeps your engine running smoothly.
+                  <h3 className="text-lg font-medium">High Performance Engine Oil</h3>
+                  <p className="text-sm text-muted-foreground  max-w-[400px]">
+                    High Performance Engine Oil is engineered to deliver superior protection and maximum power output, ensuring smooth operation and enhanced durability for high-performance engines under extreme conditions.
                   </p>
+
                 </div>
               </div>
               <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
@@ -132,9 +139,10 @@ export function Component() {
                 />
                 <div className="space-y-2 text-center">
                   <h3 className="text-lg font-medium">CNG Engine Oil</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Our premium engine oil keeps your engine running smoothly.
+                  <p className="text-sm text-muted-foreground max-w-[400px]">
+                    Our CNG Engine Oil is specially formulated to provide superior protection and performance for compressed natural gas (CNG) engines, ensuring cleaner combustion, reduced wear, and enhanced engine life.
                   </p>
+
                 </div>
               </div>
               <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
@@ -147,97 +155,138 @@ export function Component() {
                 />
                 <div className="space-y-2 text-center">
                   <h3 className="text-lg font-medium">Gearless Scooters Engine Oil</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Our premium engine oil keeps your engine running smoothly.
+                  <p className="text-sm text-muted-foreground  max-w-[400px]">
+                    Specifically designed for gearless scooters, this engine oil ensures smooth acceleration, superior wear protection, and optimal performance for continuous, hassle-free rides.
                   </p>
+
                 </div>
               </div>
               <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
                 <Image
-                  src={oil1}
+                  src={oil7}
                   width={500}
                   height={500}
                   alt="Product"
                   className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-medium">Engine Oil</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Our premium engine oil keeps your engine running smoothly.
+                  <h3 className="text-lg font-medium">Motor Oil</h3>
+                  <p className="text-sm text-muted-foreground  max-w-[400px]">
+                    Our Motor Oil delivers reliable performance and protection, ensuring smooth operation and extending the life of your vehicle&#x2018;s engine under various driving conditions.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
                 <Image
-                  src={oil1}
+                  src={oil8}
                   width={500}
                   height={500}
                   alt="Product"
                   className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-medium">Engine Oil</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Our premium engine oil keeps your engine running smoothly.
+                  <h3 className="text-lg font-medium">4 - Stroke Engine Oil</h3>
+                  <p className="text-sm text-muted-foreground  max-w-[400px]">
+                    OOur 4-Stroke Engine Oil is formulated to provide exceptional protection and smooth performance, ensuring optimal lubrication and engine efficiency for motorcycles and other 4-stroke engines.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
                 <Image
-                  src={oil1}
+                  src={oil9}
                   width={500}
                   height={500}
                   alt="Product"
                   className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-medium">Engine Oil</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Our premium engine oil keeps your engine running smoothly.
+                  <h3 className="text-lg font-medium">Standard Mineral Industrial Gear Oil</h3>
+                  <p className="text-sm text-muted-foreground  max-w-[400px]">
+                    Standard Mineral Industrial Gear Oil ensures reliable performance and protection for heavy-duty industrial gear systems, offering excellent lubrication and wear resistance under high loads and temperatures.
                   </p>
                 </div>
               </div>
-              
+              <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+                <Image
+                  src={oil4}
+                  width={500}
+                  height={500}
+                  alt="Product"
+                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
+                />
+                <div className="space-y-2 text-center">
+                  <h3 className="text-lg font-medium">Insta Cool Coolant Anti-Freeze</h3>
+                  <p className="text-sm text-muted-foreground max-w-[400px]">
+                    Insta Cool Coolant Anti-Freeze delivers superior cooling and protection against extreme temperatures, preventing overheating and freezing to ensure your engine runs smoothly year-round.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+                <Image
+                  src={oil5}
+                  width={500}
+                  height={500}
+                  alt="Product"
+                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
+                />
+                <div className="space-y-2 text-center">
+                  <h3 className="text-lg font-medium">Motor Oil Fully Synthetic</h3>
+                  <p className="text-sm text-muted-foreground max-w-[400px]">
+                    Our Fully Synthetic Motor Oil provides maximum engine protection and performance, offering enhanced durability and efficiency for modern vehicles.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+                <Image
+                  src={oil6}
+                  width={500}
+                  height={500}
+                  alt="Product"
+                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
+                />
+                <div className="space-y-2 text-center ">
+                  <h3 className="text-lg font-medium">API CD/SF Engine Oil</h3>
+                  <p className="text-sm text-muted-foreground max-w-[400px]">
+                    API CD/SF Engine Oil offers superior protection and performance for diesel and gasoline engines, ensuring long-lasting engine health and optimal efficiency.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6 space-y-6">
             <div className="space-y-4 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Choose Acme Inc.</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Choose Motodrager.</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                At Acme Inc., we pride ourselves on our commitment to innovation, excellence, and customer satisfaction.
-                Here are a few reasons why you should choose us:
+                At Motodrager, we pride ourselves on our commitment to innovation, product quality, and customer satisfaction. Here are a few reasons why you should choose us for all your lubricant needs:
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
               <div className="flex flex-col items-center space-y-2">
                 <RocketIcon />
                 <div className="space-y-1 text-center">
-                  <h3 className="text-xl font-semibold">Cutting-Edge Technology</h3>
+                  <h3 className="text-xl font-semibold">Advanced Lubricant Technology</h3>
                   <p className="text-muted-foreground">
-                    Our team of experts is constantly exploring the latest advancements in technology to deliver
-                    innovative solutions that drive your business forward.
+                    Our team of specialists continuously develops the latest advancements in oil and lubricant technology, ensuring your vehicles perform at their best while reducing wear and tear.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-2">
                 <UsersIcon2 />
                 <div className="space-y-1 text-center">
-                  <h3 className="text-xl font-semibold">Dedicated Support</h3>
+                  <h3 className="text-xl font-semibold">Expert Support</h3>
                   <p className="text-muted-foreground">
-                    Our customer support team is available around the clock to ensure that your needs are met and your
-                    questions are answered promptly.
+                    Our dedicated support team is available around the clock to help with any questions you may have regarding our products, ensuring your engines and vehicles are always in top shape.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-2">
                 <BoltIcon />
                 <div className="space-y-1 text-center">
-                  <h3 className="text-xl font-semibold">Unparalleled Reliability</h3>
+                  <h3 className="text-xl font-semibold">Unmatched Reliability</h3>
                   <p className="text-muted-foreground">
-                    Our robust infrastructure and rigorous testing processes ensure that our solutions are reliable,
-                    scalable, and secure, giving you peace of mind.
+                    With our rigorously tested formulas and a robust manufacturing process, our oils and lubricants are designed for maximum durability, efficiency, and protection, giving you confidence in every drive.
                   </p>
                 </div>
               </div>
@@ -247,12 +296,10 @@ export function Component() {
         <section className="w-full py-12 md:py-24 lg:py-32 bg-[#212124]">
           <div className="container mx-auto px-4 md:px-6 space-y-6 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Thank you for visiting Acme Inc.
+              Thank you for visiting Motodrager.
             </h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We appreciate your interest in our company and hope you found the information on our website helpful. If you
-              have any further questions or would like to learn more about our services, please don&apos;t hesitate to reach
-              out. We look forward to the opportunity to work with you.
+              We appreciate your interest in our range of high-performance engine oils and lubricants. We hope you found the information on our website helpful. If you have any further questions or would like to learn more about how our products can enhance your vehicle&#x2018;s performance and longevity, please don&#x2018;t hesitate to reach out. We look forward to the opportunity to work with you.
             </p>
           </div>
         </section>
