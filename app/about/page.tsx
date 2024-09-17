@@ -98,7 +98,7 @@ export default function Component() {
                                             <Link href="https://www.facebook.com/profile.php?id=100077376946555" target="_blank" className="flex items-center justify-center w-10 h-10 bg-gray-800 rounded-full">
                                                 <FacebookIcon />
                                             </Link>
-                                            <Link href="#" target="_blank" className="flex items-center justify-center w-10 h-10 bg-gray-800 rounded-full">
+                                            <Link href="https://www.instagram.com/jmd_lubricants_oil?igsh=cm80bWtxdXcxZXA4" target="_blank" className="flex items-center justify-center w-10 h-10 bg-gray-800 rounded-full">
                                                 <InstagramIcon />
                                             </Link>
                                         </div>
