@@ -15,6 +15,7 @@ import oil6 from "@/public/oil6.png"
 import oil7 from "@/public/oil7.png"
 import oil8 from "@/public/oil8.png"
 import oil9 from "@/public/oil9.png"
+import img10 from "@/public/img10.png"
 
 export function Component() {
   return (
@@ -248,6 +249,21 @@ export function Component() {
                   <h3 className="text-lg font-medium">API CD/SF Engine Oil</h3>
                   <p className="text-sm text-muted-foreground max-w-[400px]">
                     API CD/SF Engine Oil offers superior protection and performance for diesel and gasoline engines, ensuring long-lasting engine health and optimal efficiency.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+                <Image
+                  src={img10}
+                  width={500}
+                  height={500}
+                  alt="Product"
+                  className="mx-auto  overflow-hidden rounded-md object-cover h-[400px] w-fit"
+                />
+                <div className="space-y-2 text-center ">
+                  <h3 className="text-lg font-medium">Grease</h3>
+                  <p className="text-sm text-muted-foreground max-w-[400px]">
+                    Our high-quality grease provides excellent lubrication and protection, reducing friction and wear in machinery and automotive applications, ensuring long-lasting performance and reliability.
                   </p>
                 </div>
               </div>
